@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+</head>
+<body >
+    <div class="menu">
+        
+        <i class="menuSpace" style="width: 94%;font-size: 15px;height: 20px;border-top: 0;" >player 1:</i>
+        <textarea class="menuSpace" id="p1" style="width: 94%;border-top: 0;background-color: transparent;color: greenyellow;"></textarea>
+        <i class="menuSpace" style="width: 94%;font-size: 15px;height: 20px;border-top: 0;" >Alert:</i>
+        
+        <textarea class="menuSpace" id="warn" style="width: 94%;border-top: 0;background-color: white;"></textarea>
+        
+        
+        <i class="menuSpace" style="width: 94%;font-size: 15px;height: 20px;border-top: 0;" >player 2:</i>
+        <textarea class="menuSpace" id="p2" style="width: 94%;border-top: 0;background-color: transparent;color: rgb(199, 96, 0);"></textarea>
+        
+    </div>
+    <div class="box" id="box">
+    </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="wins">Some text in the Modal..</p>
+          <button id="myBtn">ReMatch</button>
+        </div>
+      
+      </div>
+    <script src='board1.js'></script>
+    <script src="check.js"></script>
+    <script src="possibleMove.js"></script>
+    <script src='pieces.js'></script>
+    <script src='movement.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+.odd{
+    font-size: 300%;
+    width: 100%;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.fas{
+   border: none;
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.even{
+    font-size: 300%;
+    width: 100%;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.even:hover{
+    background-color: aqua;
+}
+.odd:hover{
+    background-color: aqua;
+}
+.index{
+    font-size: 70%;
+    width: 100%;
+    height: 80px;
+    
+    padding: 1px;
+    border: none;
+}
+.box{
+    width: 75%;
+    z-index:1;
+    top: 0;
+    overflow: hidden;
+    left: 0;
+    margin: 0;
+}
+.menu{
+    width:25%;
+    float:right;
+    height: 100%;
+    background-color: rgb(69, 50, 105);
+    color: white;
+}
+.menuSpace{
+    width: 20%;
+    margin-top: 10%;
+    margin-right: 5px;
+    float: right;
+    height: 150px;
+    font-size: 40px;
+    border: none;
+
+}
+.row:after{
+content:"";
+display: table;
+clear:both;
+
+}
+
+.col{
+    float:left;
+    width: 12%;
+    height:80px;
+    border: none;
+
+}
+.col1{
+    float:left;
+    width: 2%;
+    border: none;
+    height:80px;
+}
+.col4{
+    float:left;
+    width: 2%;
+    border: none;
+    height:30px;
+}
+.col3{
+    float:left;
+    width: 12%;
+    height:30px;
+    border: none;
+}
+.ind{
+    font-size: 70%;
+    width: 100%;
+    height: 30px;
+    
+    padding: 1px;
+    border: none;
+}
+.showPossible{
+    font-size: 300%;
+    width: 100%;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+/* --------------------- */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
